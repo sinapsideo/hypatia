@@ -1,0 +1,102 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #261C2C;
+  margin: 0;
+
+}
+
+h1 {
+  color: #161E54;
+  margin-bottom: 0;
+  font-size: 4rem;
+}
+h1:hover {
+  opacity: 90%;
+}
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+  color: #161E54;
+}
+a {
+  color: #477ca7;
+}
+a:hover {
+  color: #FF9B6A;
+}
+#main {
+  margin: 30px 15px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 70%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  padding: 15px;
+  margin: 0;
+  border-radius: 10px;
+  background: white;
+}
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px){
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+#headline {
+  margin: 50px 0;
+  font-size: 3rem;
+  text-align: center;
+}
+ul {
+  max-width:550px;
+  margin: 0 auto 50px auto;
+  text-align: justify;
+  line-height: 1.6;
+}
+li {
+  margin: 16px 0;
+}
+li:hover {
+  color: #1C0C5B;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin: 0 auto;
+  text-align: left;
+}
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 50px auto 50px auto;
+  text-align: justify;
+  color: #1A374D;
+}
